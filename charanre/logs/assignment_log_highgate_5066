@@ -1,0 +1,27 @@
+[LOGIN:SUCCESS]
+[LOGIN:END]
+[LIST:SUCCESS]
+1    euston.cse.buffalo.edubuffalo.edu,5064,128.205.36.34,euston.cse.buffalo.edu,5064,128.205.36.34,euston.cse.buffalo.edu,5066,128.205.36.33,highgate.cse.buffalo.ed–128.205.36.34128euston.cse.buffalo.edubuffalo.edu,5064,128.205.36.34,euston.cse.buffalo.edu,5064,128.205.36.34,euston.cse.buffalo.edu,5066,128.205.36.33,highgate.cse.buffalo.ed–5064    
+2    euston.cse.buffalo.edu             128.205.36.34       5064    
+3    euston.cse.buffalo.edubuffalo.edu,5064,128.205.36.34,euston.cse.buffalo.edu,5064,128.205.36.34,euston.cse.buffalo.edu,5066,128.205.36.33,highgate.cse.buffalo.ed–128.205.36.34128euston.cse.buffalo.edubuffalo.edu,5064,128.205.36.34,euston.cse.buffalo.edu,5064,128.205.36.34,euston.cse.buffalo.edu,5066,128.205.36.33,highgate.cse.buffalo.ed–5064    
+4    highgate.cse.buffalo.eduffalo.edu,5064,128.205.36.34,euston.cse.buffalo.edu,5064,128.205.36.34,euston.cse.buffalo.edu,5066,128.205.36.33,highgate.cse.bu·128.205.36.33128highgate.cse.buffalo.eduffalo.edu,5064,128.205.36.34,euston.cse.buffalo.edu,5064,128.205.36.34,euston.cse.buffalo.edu,5066,128.205.36.33,highgate.cse.bu·5066    
+[LIST:END]
+[LOGIN:SUCCESS]
+[LOGIN:END]
+[LIST:SUCCESS]
+1    euston.cse.buffalo.edubuffalo.edu,5064,128.205.36.34,euston.cse.buffalo.edu,5064,128.205.36.34,euston.cse.buffalo.edu,5066,128.205.36.33,highgate.cse.buA128.205.36.34128euston.cse.buffalo.edubuffalo.edu,5064,128.205.36.34,euston.cse.buffalo.edu,5064,128.205.36.34,euston.cse.buffalo.edu,5066,128.205.36.33,highgate.cse.buA5064    
+2    euston.cse.buffalo.edu             128.205.36.34       5064    
+3    euston.cse.buffalo.edu             128.205.36.34       5064    
+4    highgate.cse.buffalo.edu           128.205.36.33       5066    
+5    highgate.cse.buffalo.edu           128.205.36.33       5066    
+[LIST:END]
+[LOGIN:SUCCESS]
+[LOGIN:END]
+[LIST:SUCCESS]
+1    euston.cse.buffalo.edubuffalo.edu,5064,128.205.36.34,euston.cse.buffalo.edu,5064,128.205.36.34,euston.cse.buffalo.edu,5066,128.205.36.33,highgate.cse.bua128.205.36.34128euston.cse.buffalo.edubuffalo.edu,5064,128.205.36.34,euston.cse.buffalo.edu,5064,128.205.36.34,euston.cse.buffalo.edu,5066,128.205.36.33,highgate.cse.bua5064    
+2    euston.cse.buffalo.edu             128.205.36.34       5064    
+3    euston.cse.buffalo.edu             128.205.36.34       5064    
+4    highgate.cse.buffalo.edu           128.205.36.33       5066    
+5    highgate.cse.buffalo.edu           128.205.36.33       5066    
+6    highgate.cse.buffalo.e             128.205.36.33       5066    
+[LIST:END]
