@@ -335,9 +335,9 @@ void server_broadcast(int sock_index,char * cmd, std::vector<struct ClientList> 
         vector<struct ClientList> ::iterator it;
         char * command = (char*) malloc(sizeof(char)*BUFFER_SIZE);
         char * command_new = (char*) malloc(sizeof(char)*BUFFER_SIZE);
-	char * buffertosend = (char*)malloc(sizeof(char)*BUFFER_SIZE);
-	memset(command_new,'\0',BUFFER_SIZE*2);
-	memset(buffertosend,'\0',BUFFER_SIZE*2);
+		char * buffertosend = (char*)malloc(sizeof(char)*BUFFER_SIZE);
+		memset(command_new,'\0',BUFFER_SIZE*2);
+		memset(buffertosend,'\0',BUFFER_SIZE*2);
         char src_ip[INET_ADDRSTRLEN];
         int cmd_len = strlen(cmd);
 
@@ -345,10 +345,10 @@ void server_broadcast(int sock_index,char * cmd, std::vector<struct ClientList> 
                 if(it->fd == sock_index)
                         strcpy(src_ip,it->IP);
         }
-	strcpy(buffertosend,src_ip);
-	strcat(buffertosend," ");
-	strcpy(command,"255.255.255.255");
-	strcat(buffertosend,cmd);
+		strcpy(buffertosend,src_ip);
+		strcat(buffertosend," ");
+		strcpy(command,"255.255.255.255");
+		strcat(buffertosend,cmd);
         char IPAddress[INET_ADDRSTRLEN];
         bool IP_in_list= false;
         for (it = clientlist->begin();it!=clientlist->end();it++){
@@ -406,7 +406,6 @@ int unblockip(int sock_index, char * buffer, std::vector<struct ClientList>*clie
 				pos++;
 			}
 		}  
-
 	}	
 	return -1;
 }
@@ -454,18 +453,10 @@ void blockip(int sock_index, char * buffer, std::vector<struct ClientList> *clie
        
 	for(myit = clientlist->begin(); myit!=clientlist->end();myit++){
        		if(myit->fd==sock_index){
-       			if(myit->blocked.size()==0){
 				myit->blocked.push_back(newip);
-				break;
-			}
-       			for(auto i: myit->blocked){
-				if(strcmp(i.c_str(),newip)==0){
-				}
-       				else{
-					myit->blocked.push_back(newip);
-				}
+				return;
 			}
 
        		}
        	}
-}
+
